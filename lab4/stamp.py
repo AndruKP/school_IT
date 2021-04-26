@@ -33,7 +33,6 @@ def squares():
 
 
 def triangles():
-    #t.lt(90)
     t.shape('triangle')
     t.color('blue', 'light blue')
     for i in range(5):
