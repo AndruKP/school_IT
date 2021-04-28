@@ -96,4 +96,5 @@ def eye():
 
 
 mouse()
+cat()
 t.exitonclick()
