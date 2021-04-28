@@ -83,6 +83,7 @@ def worm():
     t.goto(400, 250)
     t.goto(450, 200)
 
+    t.st()
 
 worm()
 t.exitonclick()
