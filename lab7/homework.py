@@ -5,7 +5,7 @@ t.title('Петухон — лучший язык программировани
 t.setup(1920, 1080, 0, 0)  # set resolution and start point
 
 t.pd()
-# t.ht()
+t.ht()
 
 
 def train():
@@ -103,7 +103,42 @@ def train():
 
     t.color('blue')
     t.begin_fill()
-    t.circle(75,extent=180)
+    t.circle(75, extent=180)
     t.end_fill()
+
+    t.color('darkblue')
+    t.pu()
+    t.goto(450, -5)
+    t.lt(45)
+    t.pd()
+
+    t.begin_fill()
+    t.circle(-25)
+    t.end_fill()
+
+    t.color('brown')
+    t.begin_fill()
+    t.circle(50, steps=4)
+    t.end_fill()
+
+    t.pu()
+    t.goto(377, -5)
+    t.pd()
+
+    t.begin_fill()
+    t.circle(50, steps=4)
+    t.end_fill()
+
+    t.pu()
+    t.goto(525, 64)
+    t.lt(135)
+    t.pd()
+
+    t.color('yellow')
+    t.begin_fill()
+    t.circle(75, extent=180)
+    t.end_fill()
+
+
 train()
 t.exitonclick()
